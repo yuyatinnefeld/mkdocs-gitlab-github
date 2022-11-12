@@ -4,7 +4,12 @@ MkDocs is a fast, simple and downright gorgeous static site generator that's gea
 Documentation source files are written in Markdown, and configured with a single YAML configuration file.
 
 ## Example Docs Site
-https://yuyatinnefeld.gitlab.io/mkdocs-gitlab/
+
+### Gitlab
+- https://yuyatinnefeld.gitlab.io/mkdocs-gitlab-github/
+
+### Github
+- https://yuyatinnefeld.github.io/mkdocs-gitlab-github/
 
 ## Setup Mkdocs Environment
 ```bash
@@ -49,7 +54,7 @@ git push origin master
 <username>.<gitlab>.io/<your-mkdocs-repo>
 
 # example gitlab site
-https://yuyatinnefeld.gitlab.io/mkdocs-gitlab
+https://yuyatinnefeld.gitlab.io/mkdocs-gitlab-github
 
 # details about gitlab url
 https://docs.gitlab.com/ee/user/project/pages/getting_started_part_one.html
@@ -68,7 +73,7 @@ Branch: gh-pages + Selectfolder: root > Save
 <username>.<github>.io/<your-mkdocs-repo>
 
 # example gitlab site
-https://yuyatinnefeld.github.io/mkdocs-gitlab
+https://yuyatinnefeld.github.io/mkdocs-gitlab-github
 
 # details about gitlab url
 https://docs.gitlab.com/ee/user/project/pages/getting_started_part_one.html
