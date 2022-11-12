@@ -1,0 +1,33 @@
+site_name: MkDocs Yuya DEMO
+site_dir: public
+site_url: https://yuyatinnefeld.com
+repo_url: https://gitlab.com/yt-learning/mkdocs-gitlab
+theme:
+    name: material
+    palette:
+      primary: teal
+
+markdown_extensions:
+- admonition
+- pymdownx.details
+- pymdownx.superfences
+
+strict: false
+
+plugins:
+  - search
+  - gen-files:
+      scripts:
+        - docs/gen_mkdocs_pages.py
+  - mkdocstrings:
+      handlers:
+        python:
+          rendering:
+            show_root_heading: true
+            show_signature_annotations: true
+            show_source: false
+          setup_commands:
+            - import sys
+            - sys.path.append("src/app");sys.path.append("src/app_2");sys.path.append("src/app_3")
+          rendering:
+            show_root_heading: false

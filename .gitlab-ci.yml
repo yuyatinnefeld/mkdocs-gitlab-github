@@ -1,0 +1,15 @@
+stages :
+  - build
+
+pages:
+  stage: build
+  image: python:3.10
+  script:
+    - pip install --upgrade pip && pip install -r requirements.txt
+    - mkdocs build
+    - mv site public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
