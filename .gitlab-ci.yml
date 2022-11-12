@@ -1,6 +1,5 @@
 stages :
   - build
-  #- deploy
 
 pages:
   stage: build
@@ -8,18 +7,9 @@ pages:
   script:
     - pip install --upgrade pip && pip install -r requirements.txt
     - mkdocs build --site-dir public
-    #- mkdocs gh-deploy --force
   artifacts:
     paths:
       - public
     expire_in: 1 hour
   only:
     - master
-
-# deploying:
-#     stage: deploy
-#     image: gitlab-registry.cern.ch/ci-tools/ci-web-deployer:latest
-#     script:
-#         - deploy-eos
-#     only:
-#         - master
