@@ -59,6 +59,11 @@ https://docs.gitlab.com/ee/user/project/pages/getting_started_part_one.html
 ### Github Docs Site
 
 ```bash
+# setup gh-pages branch as source
+repo > settings > pages
+Source: Deploy from a branch
+Branch: gh-pages + Selectfolder: root > Save
+
 # check the page
 <username>.<github>.io/<your-mkdocs-repo>
 
