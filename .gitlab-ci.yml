@@ -1,7 +1,7 @@
 stages :
   - deploy
 
-deploy-docs:
+pages:
   stage: deploy
   image: python:3.10
   script:
