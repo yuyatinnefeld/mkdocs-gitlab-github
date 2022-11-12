@@ -3,6 +3,8 @@
 MkDocs is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation.
 Documentation source files are written in Markdown, and configured with a single YAML configuration file.
 
+## Example Docs Site
+https://yuyatinnefeld.gitlab.io/mkdocs-gitlab/
 
 ## Setup Mkdocs Environment
 ```bash

@@ -1,8 +1,8 @@
 stages :
-  - build
+  - deploy
 
-pages:
-  stage: build
+deploy-docs:
+  stage: deploy
   image: python:3.10
   script:
     - pip install --upgrade pip && pip install -r requirements.txt
