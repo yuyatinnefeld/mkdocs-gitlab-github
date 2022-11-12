@@ -42,5 +42,9 @@ git push origin master
 # check the page
 <username>.<gitlab>.io/<your-mkdocs-repo>
 
+# example
 https://yuyatinnefeld.gitlab.io/mkdocs-gitlab
+
+# details about gitlab url
+https://docs.gitlab.com/ee/user/project/pages/getting_started_part_one.html
 ```

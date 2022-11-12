@@ -1,6 +1,6 @@
 stages :
   - build
-  - deploy
+  #- deploy
 
 pages:
   stage: build
@@ -16,10 +16,10 @@ pages:
   only:
     - master
 
-deploying:
-    stage: deploy
-    image: gitlab-registry.cern.ch/ci-tools/ci-web-deployer:latest
-    script:
-        - deploy-eos
-    only:
-        - master
+# deploying:
+#     stage: deploy
+#     image: gitlab-registry.cern.ch/ci-tools/ci-web-deployer:latest
+#     script:
+#         - deploy-eos
+#     only:
+#         - master
