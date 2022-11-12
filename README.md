@@ -40,12 +40,30 @@ ls public
 
 # deploy your documentation thought the Gitlab CICD Pipeline
 git push origin master
+```
 
+### Gitlab Docs Site
+
+```bash
 # check the page
 <username>.<gitlab>.io/<your-mkdocs-repo>
 
-# example
+# example gitlab site
 https://yuyatinnefeld.gitlab.io/mkdocs-gitlab
+
+# details about gitlab url
+https://docs.gitlab.com/ee/user/project/pages/getting_started_part_one.html
+```
+
+
+### Github Docs Site
+
+```bash
+# check the page
+<username>.<github>.io/<your-mkdocs-repo>
+
+# example gitlab site
+https://yuyatinnefeld.github.io/mkdocs-gitlab
 
 # details about gitlab url
 https://docs.gitlab.com/ee/user/project/pages/getting_started_part_one.html
