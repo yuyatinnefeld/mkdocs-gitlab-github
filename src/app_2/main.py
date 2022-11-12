@@ -2,7 +2,7 @@
 """Example Google style docstrings"""
 
 
-def function_with_types_in_docstring(param1, param2):
+def my_custom_func(param1, param2):
     """Example function with types documented in the docstring.
 
     `PEP 484`_ type annotations are supported. If attribute, parameter, and
@@ -20,3 +20,5 @@ def function_with_types_in_docstring(param1, param2):
         https://www.python.org/dev/peps/pep-0484/
 
     """
+
+    print("hello world")
