@@ -38,4 +38,9 @@ ls public
 
 # deploy your documentation thought the Gitlab CICD Pipeline
 git push origin master
+
+# check the page
+<username>.<gitlab>.io/<your-mkdocs-repo>
+
+https://yuyatinnefeld.gitlab.io/mkdocs-gitlab
 ```
