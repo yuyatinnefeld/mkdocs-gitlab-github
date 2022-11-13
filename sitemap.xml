@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://yuyatinnefeld.gitlab.io/mkdocs-gitlab-github/</loc>
+         <lastmod>2022-11-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://yuyatinnefeld.gitlab.io/mkdocs-gitlab-github/docs/app/main/</loc>
+         <lastmod>2022-11-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://yuyatinnefeld.gitlab.io/mkdocs-gitlab-github/docs/app/utils/</loc>
+         <lastmod>2022-11-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://yuyatinnefeld.gitlab.io/mkdocs-gitlab-github/docs/app_2/main/</loc>
+         <lastmod>2022-11-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://yuyatinnefeld.gitlab.io/mkdocs-gitlab-github/docs/datalayer/checkout_button/</loc>
+         <lastmod>2022-11-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
