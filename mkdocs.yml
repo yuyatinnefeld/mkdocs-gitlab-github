@@ -1,6 +1,6 @@
 site_name: MkDocs Yuya DEMO
 site_dir: public
-site_url: https://yuyatinnefeld.com
+site_url: https://yuyatinnefeld.gitlab.io/mkdocs-gitlab-github/
 repo_url: https://gitlab.com/yt-learning/mkdocs-gitlab
 theme:
     name: material
